@@ -290,7 +290,7 @@ public class CustomerController implements Initializable {
         if (result.isPresent() && result.get() == ButtonType.OK){
             Customer newCustomer = controller.getNewCustomer();
             if (newCustomer == null){
-                notify("Achtung" , "Fehlgeschlagen" , "Kundennummer war keine Nummer !");
+                notify("Achtung" , "Fehlgeschlagen " , "Kundennummer war keine Nummer !");
                 return;
             }
 
@@ -311,7 +311,7 @@ public class CustomerController implements Initializable {
         int selectedIndex = customerTable.getSelectionModel().getSelectedIndex();
 
         if (customer == null){
-            notify("Achtung !", "Keinen Kunde gewählt", "  wählen Sie einen aus !  ");
+            notify("Achtung !", "Keinen Kunde gewählt ", "  wählen Sie einen aus !  ");
             return;
         }
 
@@ -345,7 +345,7 @@ public class CustomerController implements Initializable {
                 updateCustomerTable();
                 customerTable.getSelectionModel().select(selectedIndex);
             } catch (SQLException e) {
-                notify("Achtung", "fehlgeschlagen", "Datenbank Fehler");
+                notify("Achtung!", "fehlgeschlagen", "Datenbank Fehler");
             }
         }
     }
