@@ -1,0 +1,42 @@
+.pane {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+
+.column {
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.table-view .column-header{
+    -fx-background-color: #4A9130;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.table-view .table-cell{
+    -fx-text-alignment: center;
+}
+
+
+
+.myDialog .button-bar {
+    -fx-background-color: #88CC88;
+    -fx-font-size: 15px;
+}
+.myDialog .content{
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-padding: 20px;
+}
+
+.myDialog .header-panel {
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-font-size: 20;
+    -fx-background-color: #88CC88;
+    -fx-text-fill: white;
+}
+

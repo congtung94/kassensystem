@@ -1,0 +1,31 @@
+.noheader .column-header-background {
+    -fx-max-height: 2px;
+    -fx-pref-height: 2px;
+    -fx-min-height: 2px;
+    -fx-background-color: black;
+}
+
+.column {
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.table-view > .virtual-flow > .scroll-bar {
+    -fx-font-size: 6pt;
+}
+
+.label{
+    -fx-font-size: 14;
+}
+
+#totalLabel{
+    -fx-font-size: 18;
+}
+
+.myDialog .content .text-field{
+    -fx-pref-width: 90px;
+    -fx-pref-height: 90px;
+    -fx-alignment: center;
+    -fx-font-size: 40;
+}
